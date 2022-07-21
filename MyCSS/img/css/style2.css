@@ -1,4 +1,71 @@
-.btn {
+#about > #main {
+  color: gray;
+}
+
+h1 {
+  color: red !important;
+}
+
+h1#main.box {
+  color: yellow !important;
+}
+
+section > #main.title {
+  color: blue;
+}
+
+section#about > h1 {
+  color: pink;
+}
+
+/* li:empty {
+  background: skyblue;
+} */
+
+/* li:not(:empty) {
+  background: skyblue;
+} */
+
+/* main > h2:nth-of-type(3) {
+  background: pink;
+} */
+
+/* main > h2:nth-of-type(even) {
+  background: pink;
+} */
+
+/* main > h2:first-of-type {
+  background: pink;
+}
+
+main > h2:last-of-type {
+  background: skyblue;
+} */
+
+/* main > :nth-child(3) {
+  background: pink;
+} */
+
+/* main > :nth-child(3n) {
+  background: pink;
+} */
+
+/* main > :nth-child(odd) {
+  background: pink;
+}
+
+main > :nth-child(even) {
+  background: skyblue;
+} */
+/* main > :first-child {
+  background: pink;
+}
+
+main > :last-child {
+  background: skyblue;
+} */
+
+/* .btn {
   width: 100px;
   background: skyblue;
   text-align: center;
@@ -9,7 +76,7 @@
 
 .btn:hover {
   opacity: 0.8;
-}
+} */
 
 /* h1::before,
 h2::before {
@@ -19,8 +86,8 @@ h2::before {
 h1::after,
 h2::after {
   /* content: " -"; */
-  content: attr(date-subtitle);
-} */
+  /* content: attr(date-subtitle); */
+/* } */ */
 
 /* [target] { */
 /* [href="#top"] { */
