@@ -1,10 +1,54 @@
-body {
+main {
+  font-size: 32px;
+  /* line-height: 2em; */
+  line-height: 2;
+}
+
+section {
+  font-size: 16px;
+}
+
+/* p {
+  font-size: 16px;
+  line-height: 48px;
+  line-height: 3em;
+  line-height: 3;
+  background-color: pink;
+} */
+
+/* @charset "utf-8";
+
+h1 {
+  font-family: verdana, 'Arial Black', メイリオ, sans-serif;
+} */
+
+/* h1 {
+  color: red;
+  font-size: 48px;
+  text-align: center;
+  font-weight: normal;
+  text-decoration: line-through;
+}
+
+p {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+} */
+
+/* body {
   color: skyblue;
   border: 1px solid pink;
   /* font-size: 12px; */
   /* color: red; */
 }
 
-h1 {
+/* h1 {
   border: inherit;
-}
+} */
+
+
+
