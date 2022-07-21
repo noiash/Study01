@@ -2,25 +2,34 @@
   background-color: orange;
   width: 200px;
   height: 200px;
+  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
+  /* margin: 0 0 20px;
+  margin-left: auto;
+  margin-right: auto; */
 }
 .box2 {
   background-color: skyblue;
   width: 50%;
   height: 50%;
+
+  /* border: 2px solid blue;
+  padding-top: 20px;
+  padding-left: 40px; */
   /* border-width: 2px;
   border-style: solid;
   border-color: blue; */
   /* border: 2px solid blue; */
   /* border-top: 2px solid blue;
   border-bottom: 2px solid blue; */
-  border: 2px solid blue;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   /* border-bottom: none; */
   /* overflow: hidden; */
   /* overflow: scroll; */
 }
 .box3 {
   background-color: tomato;
+  margin-top: 10px;
 }
 
 /* .info {
