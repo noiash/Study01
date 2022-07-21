@@ -1,7 +1,47 @@
-.info {
+.btn {
+  width: 100px;
+  background: skyblue;
+  text-align: center;
+  padding: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+/* h1::before,
+h2::before {
+  content: "- ";
+}
+
+h1::after,
+h2::after {
+  /* content: " -"; */
+  content: attr(date-subtitle);
+} */
+
+/* [target] { */
+/* [href="#top"] { */
+/* [href^="https"] { */
+/* [href$="dotinstall"] { */
+/* [href*="com"] {
+  font-weight: bold;
+} */
+
+/* #title {
+  color: pink;
+}
+
+* {
+  font-size: 12px;
+} */
+
+/* .info {
   color: skyblue;
 }
 
 .title {
   font-weight: normal;
-}
+} */
