@@ -7,21 +7,37 @@ body {
   height: 100px;
   background: orange;
 
-  transition-property: transform;
+  animation-name: move;
+  animation-duration: 2s;
+
+  /* transition-property: transform;
   transition-duration: 0.3s;
-  transition-timing-function: cubic-bezier(0, 0.04, 0.54, 1.63);
+  transition-timing-function: ease-out; */
+  /* transition: transform 0.3s ease-out 1s, background 0.5s; */
   /* transition-delay: 1s; */
   /* transition-property: all; */
   /* transform-origin: top left; */
 }
 
-.box:hover {
-  transform: translateX(30px);
-  /* background: skyblue; */
-  /* transform: translate(50px, 20px); */
-  /* transform: rotate(30deg); */
-  /* transform: scale(0.5, 2); */
-  /* transform: translateX(100px) rotate(30deg); */
-  /* transform: rotate(30deg) translateX(100px); */
-  /* border-radius: 50%; */
+@keyframes move {
+  0% {
+    transform: none;
+  }
+  80% {
+    transform: translateX(200px) rotate(360deg);
+  }
+  100% {
+    transform: translateX(300px) rotate(360deg);
+  }
 }
+/* .box:hover {
+  transform: translateX(30px);
+  background: skyblue; */
+/* background: skyblue; */
+/* transform: translate(50px, 20px); */
+/* transform: rotate(30deg); */
+/* transform: scale(0.5, 2); */
+/* transform: translateX(100px) rotate(30deg); */
+/* transform: rotate(30deg) translateX(100px); */
+/* border-radius: 50%; */
+/* } */ ;
