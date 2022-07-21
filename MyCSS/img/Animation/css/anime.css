@@ -8,14 +8,20 @@ body {
   background: orange;
 
   transition-property: transform;
-  transition-duration: 1s;
+  transition-duration: 0.3s;
+  transition-timing-function: cubic-bezier(0, 0.04, 0.54, 1.63);
+  /* transition-delay: 1s; */
+  /* transition-property: all; */
+  /* transform-origin: top left; */
 }
 
 .box:hover {
+  transform: translateX(30px);
+  /* background: skyblue; */
   /* transform: translate(50px, 20px); */
   /* transform: rotate(30deg); */
   /* transform: scale(0.5, 2); */
   /* transform: translateX(100px) rotate(30deg); */
-  transform: rotate(30deg) translateX(100px);
+  /* transform: rotate(30deg) translateX(100px); */
   /* border-radius: 50%; */
 }
