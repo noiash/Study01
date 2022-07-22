@@ -1,6 +1,48 @@
-h1 {
-  --my-color: blue;
-  /* color: var(--my-color); */
-  color: var(--My-color, orange);
-  border-bottom: 3px solid var(--my-color);
+:root {
+  /* --my-hue: 100; */
+  /* --my-hue: 200; */
+  --my-hue: 50;
 }
+
+body {
+  background: hsl(var(--my-hue), 40%, 95%);
+}
+
+h1,
+p {
+  color: hsl(var(--my-hue), 35%, 55%);
+}
+
+.btn {
+  color: #fff;
+  width: 100px;
+  padding: 8px;
+  border-radius: 4px;
+  text-align: center;
+  /* background: hsl(var(--my-hue), 50%, 50%); */
+  background: hsl(calc(var(--my-hue) + 60), 50%, 50%);
+}
+
+/* :root {
+  --my-color: blue;
+  --my-property: color;
+  /* --my-margin-left: 32; */
+/* --my-margin-left: 32;
+} */
+
+/* body {
+  --my-color: blue;
+} */
+
+/* h1 { */
+/* color: var(--my-color); */
+/* var(--my-property): var(--my-color); */
+/* color: var(--my-color); */
+/* border-bottom: 3px solid var(--my-color); */
+/* margin-left: var(--my-margin-left); */
+/* margin-left: calc(var(--my-margin-left) * 1px);
+} */
+
+/* p {
+  color: var(--my-color);
+} */
