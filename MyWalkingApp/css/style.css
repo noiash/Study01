@@ -58,7 +58,15 @@ img {
 .animate {
   opacity: 0;
   transform: translateY(40px);
-  transition: opacity 0.3s transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.animate.slide-from-left {
+  transform: translateX(-40px);
+}
+
+.animate.slide-from-right {
+  transform: translateX(40px);
 }
 
 .animate.appear {
@@ -105,6 +113,7 @@ header .container {
 
 .features {
   padding: 64px 0;
+  overflow: hidden;
 }
 
 .features h1 {
