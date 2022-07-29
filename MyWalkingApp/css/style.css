@@ -55,6 +55,17 @@ img {
   max-width: 800px;
 }
 
+.animate {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.3s transform 0.3s;
+}
+
+.animate.appear {
+  opacity: 1;
+  transform: none;
+}
+
 /* header */
 
 header {
