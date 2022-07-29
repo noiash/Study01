@@ -75,10 +75,20 @@ header form {
 }
 /* hero */
 
+.hero {
+  height: 400px;
+}
+
 .hero img {
   width: 100%;
   height: 400px;
   object-fit: cover;
+  position: absolute;
+  opacity: 0;
+}
+
+.hero img.current {
+  opacity: 1;
 }
 
 header input,
